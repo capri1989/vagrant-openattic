@@ -316,9 +316,6 @@ EOF
 
         chmod 644 /etc/ceph/ceph.client.admin.keyring
 
-	zypper ar https://download.opensuse.org/repositories/home:/capri89:/branches:/filesystems:/openATTIC/SLE_12_SP3/home:capri89:branches:filesystems:openATTIC.repo
-	zypper --gpg-auto-import-key ref
-	zypper in -y --from home_capri89_branches_filesystems_openATTIC openattic
         touch /tmp/ready
     SHELL
   end
